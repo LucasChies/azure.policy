@@ -1,0 +1,10 @@
+"if" : {
+    "not" : {
+       "field" : "tags",
+       "containsKey" : "costCenter"
+    }
+},
+"then" : {
+    "effect" : "audit"
+    }
+}'
